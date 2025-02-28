@@ -1,7 +1,8 @@
+import { Button } from "@/components/ui/button";
 
 
 export default function Home() {
   return (
-    <div>My first Nextjs app</div>
+    <Button variant='destructive'>My first Nextjs app</Button>
   );
 }
